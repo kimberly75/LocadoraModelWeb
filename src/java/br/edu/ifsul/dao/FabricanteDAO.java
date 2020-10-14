@@ -7,11 +7,13 @@ package br.edu.ifsul.dao;
 
 import br.edu.ifsul.modelo.Fabricante;
 import java.io.Serializable;
+import javax.ejb.Stateful;
 
 /**
  *
  * @author kimberly.geremia
  */
+@Stateful
 public class FabricanteDAO<TIPO> extends GenericDAO<Fabricante> implements Serializable{
     public FabricanteDAO(){
         super();
