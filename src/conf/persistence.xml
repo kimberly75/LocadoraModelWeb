@@ -5,6 +5,10 @@
     <jta-data-source>jdbc/locadoraPU</jta-data-source>
     <class>br.edu.ifsul.modelo.Fabricante</class>
     <class>br.edu.ifsul.modelo.Grupo</class>
+    <class>br.edu.ifsul.modelo.Cidade</class>
+    <class>br.edu.ifsul.modelo.Cliente</class>
+    <class>br.edu.ifsul.modelo.Pessoa</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="hibernate.hbm2ddl.auto" value="update"/>
       <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
