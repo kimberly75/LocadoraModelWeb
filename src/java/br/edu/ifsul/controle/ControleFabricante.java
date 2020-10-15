@@ -10,7 +10,7 @@ import br.edu.ifsul.modelo.Fabricante;
 import br.edu.ifsul.util.Util;
 import java.io.Serializable;
 import javax.ejb.EJB;
-import javax.faces.bean.ViewScoped;
+import javax.faces.view.ViewScoped;
 import javax.inject.Named;
 
 /**
