@@ -7,9 +7,9 @@
     <ui:composition template="/templates/template.xhtml">
         <ui:define name="titulo">Manutenção de Fabricante</ui:define>
         <ui:define name="conteudo">
-            <h:form id="formListagem" prependId="false">
+            <h:form style="text-align: -webkit-center;" id="formListagem" prependId="false">
                 <p:growl/>
-                <p:commandButton value="Novo" actionListener="#{controleFabricante.novo()}"
+                <p:commandButton value="Novo" style="margin: 15px; width: 100px;" actionListener="#{controleFabricante.novo()}"
                                  icon="pi pi-plus"
                                  update="formEdicao"
                                  process="@this"
@@ -48,9 +48,6 @@
                     <p:growl id="growl"/>
                     <div align="center">
                         <p:panelGrid columns="2">
-                            <p:outputLabel value="ID"/>
-                            <p:inputText value="#{controleGrupo.objeto.id}"
-                                         size="5" readonly="true"/>
                             <p:outputLabel value="Nome" for="txtNome"/>
                             <p:inputText value="#{controleFabricante.objeto.nome}" id="txtNome"
                                          size="50" maxlength="50" placeholder="Obrigatório"/>                                                                                  
